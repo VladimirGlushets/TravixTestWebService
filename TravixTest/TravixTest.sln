@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.WebService", "TravixTest.WebService\TravixTest.WebService.csproj", "{3EDC3037-9837-4F65-986C-E09B539C10AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.Infrastructure", "TravixTest.Infrastructure\TravixTest.Infrastructure.csproj", "{1B074EA3-EAB1-43FF-8438-12FABC19E99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.Domain", "TravixTest.Domain\TravixTest.Domain.csproj", "{813EBA4B-AAA4-4202-9850-A1E086EB5251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.Common", "TravixTest.Common\TravixTest.Common.csproj", "{D2B254AA-1DA9-4C60-8CC7-827A0C212FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.DAL", "TravixTest.DAL\TravixTest.DAL.csproj", "{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EDC3037-9837-4F65-986C-E09B539C10AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDC3037-9837-4F65-986C-E09B539C10AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDC3037-9837-4F65-986C-E09B539C10AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDC3037-9837-4F65-986C-E09B539C10AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B074EA3-EAB1-43FF-8438-12FABC19E99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B074EA3-EAB1-43FF-8438-12FABC19E99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B074EA3-EAB1-43FF-8438-12FABC19E99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B074EA3-EAB1-43FF-8438-12FABC19E99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813EBA4B-AAA4-4202-9850-A1E086EB5251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813EBA4B-AAA4-4202-9850-A1E086EB5251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813EBA4B-AAA4-4202-9850-A1E086EB5251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813EBA4B-AAA4-4202-9850-A1E086EB5251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B254AA-1DA9-4C60-8CC7-827A0C212FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B254AA-1DA9-4C60-8CC7-827A0C212FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B254AA-1DA9-4C60-8CC7-827A0C212FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B254AA-1DA9-4C60-8CC7-827A0C212FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
