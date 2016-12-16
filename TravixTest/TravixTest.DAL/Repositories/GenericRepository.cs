@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
 using Epam.TravixTest.Domain.Repositories;
 
 namespace TravixTest.DAL.Repositories
 {
-    public abstract class GenericRepository<T> : IGenericRepository<T> where T:class{
-
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
+    {
         protected TravixTestDbContext Db;
         protected readonly DbSet<T> Set;
 
@@ -16,10 +19,25 @@ namespace TravixTest.DAL.Repositories
             Set = Db.Set<T>();
         }
 
+        public T Get(int id)
+        {
+            return Set.Find(id);
+        }
+
         public IEnumerable<T> GetAll()
         {
             var query = Set;
             return query;
+        }
+
+        public IQueryable<T> FindCommentsBy(Expression<Func<T, bool>> predicate)
+        {
+            return Set.Where(predicate);
+        }
+
+        public T FindFirstOrDefault(Expression<Func<T, bool>> predicate)
+        {
+            return Set.FirstOrDefault(predicate);
         }
 
         public virtual void Add(T entity)
@@ -40,6 +58,11 @@ namespace TravixTest.DAL.Repositories
         public void Save()
         {
             Db.SaveChanges();
+        }
+
+        public Task SaveAsync()
+        {
+            return Db.SaveChangesAsync();
         }
 
         protected void Dispose(bool disposing)

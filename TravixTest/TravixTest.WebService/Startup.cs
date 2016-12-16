@@ -1,9 +1,7 @@
 ﻿using System.Web.Http;
 using Autofac.Integration.WebApi;
-using Microsoft.Owin;
+using Epam.TravixTest.WebService.ActionFilters;
 using Owin;
-
-[assembly: OwinStartup(typeof(Epam.TravixTest.WebService.Startup))]
 
 namespace Epam.TravixTest.WebService
 {
@@ -12,6 +10,8 @@ namespace Epam.TravixTest.WebService
         public void Configuration(IAppBuilder app)
         {
             var config = new HttpConfiguration();
+
+            config.Filters.Add(new ValidationActionFilter());
 
             WebApiConfig.Register(config);
 

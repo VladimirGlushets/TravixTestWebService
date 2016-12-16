@@ -1,7 +1,7 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using Epam.TravixTest.WebService.ActionFilters;
 
-namespace TravixTest.WebService
+namespace Epam.TravixTest.WebService
 {
     public class FilterConfig
     {

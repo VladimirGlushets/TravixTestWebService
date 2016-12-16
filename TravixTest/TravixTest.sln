@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.Common", "Travix
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.DAL", "TravixTest.DAL\TravixTest.DAL.csproj", "{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravixTest.ServiceLayer", "TravixTest.ServiceLayer\TravixTest.ServiceLayer.csproj", "{610D3CD4-2C62-4144-84D7-4DA7C7A4EC59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610D3CD4-2C62-4144-84D7-4DA7C7A4EC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610D3CD4-2C62-4144-84D7-4DA7C7A4EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610D3CD4-2C62-4144-84D7-4DA7C7A4EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610D3CD4-2C62-4144-84D7-4DA7C7A4EC59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
