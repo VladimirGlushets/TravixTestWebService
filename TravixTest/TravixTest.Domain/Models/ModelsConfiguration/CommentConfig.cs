@@ -2,6 +2,9 @@
 
 namespace Epam.TravixTest.Domain.Models.ModelsConfiguration
 {
+    /// <summary>
+    /// Property settings for Comment entity
+    /// </summary>
     public class CommentConfig : EntityTypeConfiguration<Comment>
     {
         public CommentConfig()

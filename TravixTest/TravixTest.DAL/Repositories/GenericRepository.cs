@@ -8,6 +8,10 @@ using Epam.TravixTest.Domain.Repositories;
 
 namespace TravixTest.DAL.Repositories
 {
+    /// <summary>
+    /// GenericRepository include implementstion for all common methods in every inherit repository
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         protected TravixTestDbContext Db;

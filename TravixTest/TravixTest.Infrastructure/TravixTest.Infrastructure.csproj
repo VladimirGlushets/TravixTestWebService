@@ -109,7 +109,7 @@
     <Compile Include="AutoMapper\PostProfile.cs" />
     <Compile Include="IoC\Modules\ApiControllersModule.cs" />
     <Compile Include="IoC\Modules\DbContextModule.cs" />
-    <Compile Include="IoC\Modules\ManagersModule.cs" />
+    <Compile Include="IoC\Modules\ServicesModule.cs" />
     <Compile Include="IoC\Modules\RepositoriesModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

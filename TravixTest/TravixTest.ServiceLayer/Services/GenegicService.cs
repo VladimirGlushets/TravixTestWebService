@@ -1,16 +1,21 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Epam.TravixTest.Domain.Repositories;
 using AutoMapper;
+using Epam.TravixTest.Domain.Repositories;
 
-namespace TravixTest.ServiceLayer.Managers
+namespace TravixTest.ServiceLayer.Services
 {
-    public abstract class GenegicManager<T, TDto> : IManager<TDto> where T : class where TDto : class
+    /// <summary>
+    /// Include implementstion for all common methods in every inherit Service
+    /// </summary>
+    /// <typeparam name="T">Domain model</typeparam>
+    /// <typeparam name="TDto">Data Transfer Model (DTO)</typeparam>
+    public abstract class GenegicService<T, TDto> : IService<TDto> where T : class where TDto : class
     {
         protected readonly IGenericRepository<T> Repository;
 
-        protected GenegicManager(IGenericRepository<T> repository)
+        protected GenegicService(IGenericRepository<T> repository)
         {
             Repository = repository;
         }

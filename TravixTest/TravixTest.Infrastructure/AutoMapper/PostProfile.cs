@@ -4,6 +4,9 @@ using Epam.TravixTest.Domain.Models;
 
 namespace Epam.TravixTest.Infrastructure.AutoMapper
 {
+    /// <summary>
+    /// Includes all mapping rules for Post entity
+    /// </summary>
     public class PostProfile : Profile
     {
         public PostProfile()

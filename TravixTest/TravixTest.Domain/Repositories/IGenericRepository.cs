@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Epam.TravixTest.Domain.Repositories
 {
+    /// <summary>
+    /// Interface IGenericRepository inludes all common methods for all inherits entities
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public interface IGenericRepository<T> : IDisposable where T : class
     {
         T Get(int id);

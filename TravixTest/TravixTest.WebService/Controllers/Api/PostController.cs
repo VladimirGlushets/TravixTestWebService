@@ -5,18 +5,18 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using Epam.TravixTest.Common.DtoModels;
-using TravixTest.ServiceLayer.Managers.Implementations;
+using TravixTest.ServiceLayer.Services.Implementations;
 
 namespace Epam.TravixTest.WebService.Controllers.Api
 {
     [RoutePrefix("api/posts")]
     public class PostController : ApiController
     {
-        private readonly PostManager _postManager;
+        private readonly PostService _postService;
 
-        public PostController(PostManager postManager)
+        public PostController(PostService postService)
         {
-            _postManager = postManager;
+            _postService = postService;
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [Route("")]
         public IEnumerable<PostDto> GetAll()
         {
-            return _postManager.GetAll();
+            return _postService.GetAll();
         }
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [Route("{id:int}")]
         public PostDto Get(int id)
         {
-            return _postManager.Get(id);
+            return _postService.Get(id);
         }
 
         /// <summary>
@@ -55,7 +55,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
 
             try
             {
-                await _postManager.Add(model);
+                await _postService.Add(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -76,7 +76,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
             model.LastUpdatedDate = DateTime.Now;
             try
             {
-                await _postManager.Update(model);
+                await _postService.Update(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -96,7 +96,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         {
             try
             {
-                await _postManager.Delete(id);
+                await _postService.Delete(id);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)

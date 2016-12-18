@@ -2,6 +2,9 @@
 
 namespace Epam.TravixTest.Domain.Models.ModelsConfiguration
 {
+    /// <summary>
+    /// Property settings for Post entity
+    /// </summary>
     public class PostConfig : EntityTypeConfiguration<Post>
     {
         public PostConfig()

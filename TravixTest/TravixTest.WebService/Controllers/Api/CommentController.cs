@@ -5,18 +5,18 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using Epam.TravixTest.Common.DtoModels;
-using TravixTest.ServiceLayer.Managers.Implementations;
+using TravixTest.ServiceLayer.Services.Implementations;
 
 namespace Epam.TravixTest.WebService.Controllers.Api
 {
     [RoutePrefix("api/comments")]
     public class CommentController : ApiController
     {
-        private readonly CommentManager _commentManager;
+        private readonly CommentService _commentService;
 
-        public CommentController(CommentManager commentManager)
+        public CommentController(CommentService commentService)
         {
-            _commentManager = commentManager;
+            _commentService = commentService;
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [Route("{postId:int}")]
         public IEnumerable<CommentDto> GetAllCommentsBy(int postId)
         {
-            return _commentManager.GetAllCommentsBy(postId);
+            return _commentService.GetAllCommentsBy(postId);
         }
 
         /// <summary>
@@ -48,7 +48,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
 
             try
             {
-                await _commentManager.Add(model);
+                await _commentService.Add(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -69,7 +69,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
             model.LastUpdatedDate = DateTime.Now;
             try
             {
-                await _commentManager.UpdateComment(model);
+                await _commentService.UpdateComment(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -89,7 +89,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         {
             try
             {
-                await _commentManager.Delete(id);
+                await _commentService.Delete(id);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)

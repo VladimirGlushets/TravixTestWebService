@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace TravixTest.ServiceLayer.Managers
+namespace TravixTest.ServiceLayer.Services
 {
-    public interface IManager<TDto> where TDto : class
+    public interface IService<TDto> where TDto : class
     {
         TDto Get(int id);
         IEnumerable<TDto> GetAll();

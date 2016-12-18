@@ -6,11 +6,15 @@ using Epam.TravixTest.Common.DtoModels;
 using Epam.TravixTest.Domain.Models;
 using Epam.TravixTest.Domain.Repositories;
 
-namespace TravixTest.ServiceLayer.Managers.Implementations
+namespace TravixTest.ServiceLayer.Services.Implementations
 {
-    public class CommentManager : GenegicManager<Comment, CommentDto>
+    /// <summary>
+    /// Service for comunication between app and DAL. 
+    /// Includes all logic for mapping Comment domain models to CommentDto models and revers.
+    /// </summary>
+    public class CommentService : GenegicService<Comment, CommentDto>
     {
-        public CommentManager(IGenericRepository<Comment> commentRepository)
+        public CommentService(IGenericRepository<Comment> commentRepository)
             : base(commentRepository)
         {
         }

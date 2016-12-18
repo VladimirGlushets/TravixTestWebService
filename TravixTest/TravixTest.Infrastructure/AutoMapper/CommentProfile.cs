@@ -4,6 +4,9 @@ using Epam.TravixTest.Domain.Models;
 
 namespace Epam.TravixTest.Infrastructure.AutoMapper
 {
+    /// <summary>
+    /// Includes all mapping rules for Comment entity
+    /// </summary>
     public class CommentProfile : Profile
     {
         public CommentProfile()

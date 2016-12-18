@@ -4,6 +4,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Epam.TravixTest.Common.DtoModels
 {
+    /// <summary>
+    /// Class for posts data transfer objects
+    /// </summary>
     public class PostDto
     {
         public PostDto()

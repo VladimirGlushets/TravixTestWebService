@@ -17,7 +17,7 @@ namespace Epam.TravixTest.WebService
             builder.RegisterModule(new DbContextModule());
             builder.RegisterModule(new ApiControllersModule());
             builder.RegisterModule(new RepositoriesModule());
-            builder.RegisterModule(new ManagersModule());
+            builder.RegisterModule(new ServicesModule());
 
             Container = builder.Build();
         }

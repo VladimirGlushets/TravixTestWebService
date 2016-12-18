@@ -3,6 +3,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Epam.TravixTest.Common.DtoModels
 {
+    /// <summary>
+    /// Class for comments data transfer objects
+    /// </summary>
     public class CommentDto
     {
         [Required]

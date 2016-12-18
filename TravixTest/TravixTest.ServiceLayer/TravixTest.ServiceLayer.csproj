@@ -44,10 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Managers\GenegicManager.cs" />
-    <Compile Include="Managers\IManager.cs" />
-    <Compile Include="Managers\Implementations\CommentManager.cs" />
-    <Compile Include="Managers\Implementations\PostManager.cs" />
+    <Compile Include="Services\GenegicService.cs" />
+    <Compile Include="Services\IService.cs" />
+    <Compile Include="Services\Implementations\CommentService.cs" />
+    <Compile Include="Services\Implementations\PostService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

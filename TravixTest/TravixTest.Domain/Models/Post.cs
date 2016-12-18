@@ -2,6 +2,9 @@
 
 namespace Epam.TravixTest.Domain.Models
 {
+    /// <summary>
+    /// Post domain model for entity framework
+    /// </summary>
     public class Post : BaseEntity
     {
         public Post()

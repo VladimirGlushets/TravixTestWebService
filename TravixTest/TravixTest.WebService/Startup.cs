@@ -5,12 +5,16 @@ using Owin;
 
 namespace Epam.TravixTest.WebService
 {
+    /// <summary>
+    /// Startup class for confguring OWIN middleware
+    /// </summary>
     public class Startup
     {
         public void Configuration(IAppBuilder app)
         {
             var config = new HttpConfiguration();
 
+            // register validation action filter
             config.Filters.Add(new ValidationActionFilter());
 
             WebApiConfig.Register(config);
