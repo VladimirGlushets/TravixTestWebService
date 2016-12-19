@@ -3,3 +3,8 @@ E:\Work\Epam\TestProject\TravixTest\TravixTest.Common\bin\Debug\Epam.TravixTest.
 E:\Work\Epam\TestProject\TravixTest\TravixTest.Common\obj\Debug\Epam.TravixTest.Common.dll
 E:\Work\Epam\TestProject\TravixTest\TravixTest.Common\obj\Debug\Epam.TravixTest.Common.pdb
 E:\Work\Epam\TestProject\TravixTest\TravixTest.Common\obj\Debug\TravixTest.Common.csprojResolveAssemblyReference.cache
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Common\bin\Debug\Epam.TravixTest.Common.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Common\bin\Debug\Epam.TravixTest.Common.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Common\obj\Debug\Epam.TravixTest.Common.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Common\obj\Debug\Epam.TravixTest.Common.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Common\obj\Debug\TravixTest.Common.csprojResolveAssemblyReference.cache

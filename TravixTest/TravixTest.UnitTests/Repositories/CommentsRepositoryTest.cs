@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using Epam.TravixTest.Domain.Models;
 using Epam.TravixTest.Domain.Repositories;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using TravixTest.UnitTests.Helpers;
 
 namespace TravixTest.UnitTests.Repositories

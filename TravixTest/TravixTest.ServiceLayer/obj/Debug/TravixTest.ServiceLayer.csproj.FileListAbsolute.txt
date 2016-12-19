@@ -13,3 +13,18 @@ E:\Work\Epam\TestProject\TravixTest\TravixTest.ServiceLayer\bin\Debug\EntityFram
 E:\Work\Epam\TestProject\TravixTest\TravixTest.ServiceLayer\obj\Debug\TravixTest.ServiceLayer.csprojResolveAssemblyReference.cache
 E:\Work\Epam\TestProject\TravixTest\TravixTest.ServiceLayer\obj\Debug\TravixTest.ServiceLayer.dll
 E:\Work\Epam\TestProject\TravixTest\TravixTest.ServiceLayer\obj\Debug\TravixTest.ServiceLayer.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\TravixTest.ServiceLayer.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\TravixTest.ServiceLayer.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\AutoMapper.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\Epam.TravixTest.Common.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\Epam.TravixTest.Domain.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\TravixTest.DAL.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\EntityFramework.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\Epam.TravixTest.Common.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\TravixTest.DAL.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\Epam.TravixTest.Domain.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\AutoMapper.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\bin\Debug\EntityFramework.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\obj\Debug\TravixTest.ServiceLayer.csprojResolveAssemblyReference.cache
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\obj\Debug\TravixTest.ServiceLayer.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.ServiceLayer\obj\Debug\TravixTest.ServiceLayer.pdb
