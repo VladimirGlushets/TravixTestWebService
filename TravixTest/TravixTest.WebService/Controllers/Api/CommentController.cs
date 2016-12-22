@@ -4,19 +4,19 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Epam.TravixTest.Common.DtoModels;
-using TravixTest.ServiceLayer.Services.Implementations;
+using Epam.TravixTest.Buisness.Models.DtoModels;
+using Epam.TravixTest.Buisness.Service.Interfases;
 
 namespace Epam.TravixTest.WebService.Controllers.Api
 {
     [RoutePrefix("api/comments")]
     public class CommentController : ApiController
     {
-        private readonly CommentService _commentService;
+        private readonly ICommentBuisnessService _commentBuisnessService;
 
-        public CommentController(CommentService commentService)
+        public CommentController(ICommentBuisnessService commentBuisnessService)
         {
-            _commentService = commentService;
+            _commentBuisnessService = commentBuisnessService;
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [Route("{postId:int}")]
         public IEnumerable<CommentDto> GetAllCommentsBy(int postId)
         {
-            return _commentService.GetAllCommentsBy(postId);
+            return _commentBuisnessService.GetAllCommentsBy(postId);
         }
 
         /// <summary>
@@ -38,17 +38,12 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [HttpPost]
         public async Task<HttpResponseMessage> AddNew(CommentDto model)
         {
-            if (!model.PostId.HasValue)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "PostId field is required");
-            }
-
             model.CreatedDate = DateTime.Now;
             model.LastUpdatedDate = DateTime.Now;
 
             try
             {
-                await _commentService.Add(model);
+                await _commentBuisnessService.Add(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -69,7 +64,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
             model.LastUpdatedDate = DateTime.Now;
             try
             {
-                await _commentService.UpdateComment(model);
+                await _commentBuisnessService.UpdateComment(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -89,7 +84,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         {
             try
             {
-                await _commentService.Delete(id);
+                await _commentBuisnessService.Delete(id);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)

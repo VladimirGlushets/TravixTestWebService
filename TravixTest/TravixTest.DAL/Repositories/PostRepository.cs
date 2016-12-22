@@ -1,11 +1,13 @@
 ﻿using Epam.TravixTest.Domain.Models;
+using Epam.TravixTest.Domain.Repositories;
+using TravixTest.DAL;
 
-namespace TravixTest.DAL.Repositories
+namespace Epam.TravixTest.DAL.Repositories
 {
     /// <summary>
     /// Implementstion Post repository
     /// </summary>
-    public class PostRepository : GenericRepository<Post>
+    public class PostRepository : GenericRepository<Post>, IPostRepository
     {
         public PostRepository(TravixTestDbContext context) : base(context)
         {

@@ -1,0 +1,17 @@
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.Domain.Services.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.Domain.Services.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\AutoMapper.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\Epam.TravixTest.Domain.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.Buisness.Models.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.DAL.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.Domain.Services.Interfaces.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\EntityFramework.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.Buisness.Models.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.DAL.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\TravixTest.Domain.Services.Interfaces.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\Epam.TravixTest.Domain.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\AutoMapper.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\bin\Debug\EntityFramework.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\obj\Debug\TravixTest.Domain.Services.csprojResolveAssemblyReference.cache
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\obj\Debug\TravixTest.Domain.Services.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.Domain.Services\obj\Debug\TravixTest.Domain.Services.pdb

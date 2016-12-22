@@ -7,7 +7,7 @@
     <ProjectGuid>{8B9541D0-B257-4A98-BBF9-ED7DAAE8F462}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TravixTest.DAL</RootNamespace>
+    <RootNamespace>Epam.TravixTest.DAL</RootNamespace>
     <AssemblyName>TravixTest.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -65,10 +65,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TravixTest.Common\TravixTest.Common.csproj">
-      <Project>{d2b254aa-1da9-4c60-8cc7-827a0c212fc8}</Project>
-      <Name>TravixTest.Common</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TravixTest.Domain\TravixTest.Domain.csproj">
       <Project>{813eba4b-aaa4-4202-9850-a1e086eb5251}</Project>
       <Name>TravixTest.Domain</Name>

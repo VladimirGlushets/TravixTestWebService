@@ -3,7 +3,7 @@
     /// <summary>
     /// Comment domain model for entity framework
     /// </summary>
-    public class Comment : BaseEntity
+    public class Comment : BaseDomainEntity
     {
         public int PostId { get; set; }
 

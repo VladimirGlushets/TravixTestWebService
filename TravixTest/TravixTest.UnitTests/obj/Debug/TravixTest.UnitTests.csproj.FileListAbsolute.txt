@@ -69,24 +69,23 @@ E:\Work\Epam\TestProject\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Ht
 E:\Work\Epam\TestProject\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.csprojResolveAssemblyReference.cache
 E:\Work\Epam\TestProject\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.dll
 E:\Work\Epam\TestProject\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.pdb
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.csprojResolveAssemblyReference.cache
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\ApplicationInsights.config
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\VBCSCompiler.exe.config
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\csc.exe
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\System.Collections.Immutable.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\System.Reflection.Metadata.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\vbc.exe
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\VBCSCompiler.exe
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\roslyn\VBCSCompiler.exe.config
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.UnitTests.dll.config
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.UnitTests.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.UnitTests.pdb
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.Common.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Castle.Core.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.Domain.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.Infrastructure.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.WebService.dll
@@ -98,12 +97,15 @@ D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitT
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.WebPages.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Buisness.Service.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.DAL.dll
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.ServiceLayer.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\EntityFramework.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Autofac.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\AutoMapper.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Buisness.Models.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Domain.Services.dll
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Domain.Services.Interfaces.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Optimization.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Http.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Net.Http.Formatting.dll
@@ -112,12 +114,12 @@ D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitT
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Http.WebHost.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Autofac.Integration.Owin.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Http.Owin.dll
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.Common.pdb
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.DAL.pdb
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.Domain.pdb
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.Infrastructure.pdb
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.ServiceLayer.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Buisness.Service.pdb
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Epam.TravixTest.WebService.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Castle.Core.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Moq.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Helpers.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Mvc.xml
@@ -128,7 +130,10 @@ D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitT
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\EntityFramework.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Autofac.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\AutoMapper.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Buisness.Models.pdb
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Domain.Services.pdb
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\TravixTest.Domain.Services.Interfaces.pdb
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Optimization.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Http.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Net.Http.Formatting.xml
@@ -136,7 +141,6 @@ D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitT
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Http.WebHost.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Autofac.Integration.Owin.xml
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\System.Web.Http.Owin.xml
+D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.csprojResolveAssemblyReference.cache
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.dll
 D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\obj\Debug\TravixTest.UnitTests.pdb
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Castle.Core.dll
-D:\Skills\Interviews\Test Tasks\TravixTestWebService\TravixTest\TravixTest.UnitTests\bin\Debug\Castle.Core.xml

@@ -4,19 +4,19 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
-using Epam.TravixTest.Common.DtoModels;
-using TravixTest.ServiceLayer.Services.Implementations;
+using Epam.TravixTest.Buisness.Models.DtoModels;
+using Epam.TravixTest.Buisness.Service.Interfases;
 
 namespace Epam.TravixTest.WebService.Controllers.Api
 {
     [RoutePrefix("api/posts")]
     public class PostController : ApiController
     {
-        private readonly PostService _postService;
+        private readonly IPostBuisnessService _postBuisnessService;
 
-        public PostController(PostService postService)
+        public PostController(IPostBuisnessService postBuisnessService)
         {
-            _postService = postService;
+            _postBuisnessService = postBuisnessService;
         }
 
         /// <summary>
@@ -27,7 +27,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [Route("")]
         public IEnumerable<PostDto> GetAll()
         {
-            return _postService.GetAll();
+            return _postBuisnessService.GetAll();
         }
 
         /// <summary>
@@ -39,7 +39,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         [Route("{id:int}")]
         public PostDto Get(int id)
         {
-            return _postService.Get(id);
+            return _postBuisnessService.Get(id);
         }
 
         /// <summary>
@@ -55,7 +55,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
 
             try
             {
-                await _postService.Add(model);
+                await _postBuisnessService.Add(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -76,7 +76,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
             model.LastUpdatedDate = DateTime.Now;
             try
             {
-                await _postService.Update(model);
+                await _postBuisnessService.Update(model);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)
@@ -96,7 +96,7 @@ namespace Epam.TravixTest.WebService.Controllers.Api
         {
             try
             {
-                await _postService.Delete(id);
+                await _postBuisnessService.Delete(id);
                 return Request.CreateResponse(HttpStatusCode.OK);
             }
             catch (Exception ex)

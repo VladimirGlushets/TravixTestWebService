@@ -4,15 +4,17 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Epam.TravixTest.Domain.Models;
 using Epam.TravixTest.Domain.Repositories;
+using TravixTest.DAL;
 
-namespace TravixTest.DAL.Repositories
+namespace Epam.TravixTest.DAL.Repositories
 {
     /// <summary>
     /// GenericRepository include implementstion for all common methods in every inherit repository
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : BaseDomainEntity
     {
         protected TravixTestDbContext Db;
         protected readonly DbSet<T> Set;

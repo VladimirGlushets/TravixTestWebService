@@ -109,26 +109,35 @@
     <Compile Include="AutoMapper\PostProfile.cs" />
     <Compile Include="IoC\Modules\ApiControllersModule.cs" />
     <Compile Include="IoC\Modules\DbContextModule.cs" />
-    <Compile Include="IoC\Modules\ServicesModule.cs" />
+    <Compile Include="IoC\Modules\DomainServicesModule.cs" />
+    <Compile Include="IoC\Modules\BuisnessServicesModule.cs" />
     <Compile Include="IoC\Modules\RepositoriesModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TravixTest.Common\TravixTest.Common.csproj">
-      <Project>{d2b254aa-1da9-4c60-8cc7-827a0c212fc8}</Project>
-      <Name>TravixTest.Common</Name>
+    <ProjectReference Include="..\TravixTest.Buisness.Models\TravixTest.Buisness.Models.csproj">
+      <Project>{026345df-b04c-4cb8-9d6d-2b365ce79072}</Project>
+      <Name>TravixTest.Buisness.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\TravixTest.DAL\TravixTest.DAL.csproj">
       <Project>{8b9541d0-b257-4a98-bbf9-ed7daae8f462}</Project>
       <Name>TravixTest.DAL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TravixTest.Domain.Services.Interfaces\TravixTest.Domain.Services.Interfaces.csproj">
+      <Project>{0fb1bd17-eabc-49f3-9be3-79890a0d933c}</Project>
+      <Name>TravixTest.Domain.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TravixTest.Domain.Services\TravixTest.Domain.Services.csproj">
+      <Project>{51a38ff3-de56-4029-a10b-a475f48d9639}</Project>
+      <Name>TravixTest.Domain.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TravixTest.Domain\TravixTest.Domain.csproj">
       <Project>{813EBA4B-AAA4-4202-9850-A1E086EB5251}</Project>
       <Name>TravixTest.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TravixTest.ServiceLayer\TravixTest.ServiceLayer.csproj">
+    <ProjectReference Include="..\TravixTest.ServiceLayer\TravixTest.Buisness.Services.csproj">
       <Project>{610d3cd4-2c62-4144-84d7-4da7c7a4ec59}</Project>
-      <Name>TravixTest.ServiceLayer</Name>
+      <Name>TravixTest.Buisness.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
